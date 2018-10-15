@@ -20,8 +20,8 @@ input: x_test : standardized test design matrix in nXp format
 
 	plot(y_test,type="l",lwd=3,ylim=c(-10,10),xlab="Predicted and observed values")
 	par(new=TRUE)
-	plot(y_hat,type="l",lwd=3,ylim=c(-10,10),col="blue")
+	plot(y_hat,type="l",lwd=3,ylim=c(-10,10),col="blue",xlab="")
 	par(new=TRUE)
-	plot(lower_PI,type="l",lwd=3,ylim=c(-10,10),col="red",lty=2)
+	plot(lower_PI,type="l",lwd=3,ylim=c(-10,10),col="red",lty=2,xlab="")
 	par(new=TRUE)
-	plot(upper_PI,type="l",lwd=3,ylim=c(-10,10),col="red",lty=2)
+	plot(upper_PI,type="l",lwd=3,ylim=c(-10,10),col="red",lty=2,xlab="")
