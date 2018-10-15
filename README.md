@@ -5,7 +5,9 @@ Here we compute RIS-RP and RIS-PCR for normal-linear model
 ## Usage
 
 input: x : standardized taining design matrix in nXp format
+
 input: y : training response, a n-vector
+
 input: x_test : standardized test design matrix in nXp format
 
 ## Examples
